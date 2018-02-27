@@ -1,0 +1,59 @@
+
+body{
+    background-image: url(Thanos.jpg)
+    
+}
+div{
+	background-color: teal;
+	margin: 10px;
+	width: 25%
+}
+div{
+	border: solid 2px pink;
+	padding: 10px;
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+
+
+div.header, div.infinitystones{
+	background-color: purple;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.infinitystones{
+	clear: both;
+}
+.infinity{
+	height: 100px;
+	margin: 10px;
+}
+
+#space{
+	color: #3092c7;
+}
+#time{
+	color: #00aa59;
+}
+#reality{
+	color: #ec4b5f;
+}
+#mind{
+	color: #ffc225;
+}

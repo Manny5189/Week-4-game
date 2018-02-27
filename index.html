@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Infinity Stone Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+        <style>
+                body {
+                    background-image: url("Thanos.jpg");
+                }
+        </style>
+	<div class="header">
+		<h1>Infinity Stone Collector</h1>
+	</div>
+	<div class="instructions">
+		<h3>Here's how you play the game</h3>
+		</br>
+		<ol>
+			<li>You will be given a random number at the start of the game.</span></li>
+			<li>There are four Infinity Stones below.</li>
+			<ul>
+				<li id="space">Blue</li>
+				<li id="time">Green</li>
+				<li id="reality">Red</li>
+				<li id="mind">Yellow</li>
+			</ul>
+			<li>By clicking on an Infinity stone, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each Infintiy Stone is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each Infinity Stone.</li>
+		</ol>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="infinitystones">
+		<img src="assets/images/space.png" class=infinity id="one" alt="space">
+		<img src="assets/images/time.png" class=infinity id="two" alt="time">
+		<img src="assets/images/mind.png" class=infinity id= "three" alt="mind">
+		<img src="assets/images/reality.png" class=infinity id= "four" alt="reality">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>>
+	<script type="text/javascript" src="assets/javascript/script.js"></script>
+</body>
+</html>
